@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" type="text/css" href="style1.css">
+<html lang="en">
+
+	<head>
+	<meta name="viewport" content="width=device-width">
+	<style>
+		img {
+			max-width: 100%;
+	}
+</style>
+	<title>Hyeran Park</title>
+	</head>
+	
+	<p><h1>Hyeran Park</h1>
+	<h3>I code.<br/>
+	What else is there to say?</h3>
+	</p>
+	</br>
+	
+	<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="projects.html">Projects</a></li>
+  <li><a href="resume.html">Resume</a></li>
+  </ul>
+	
+	
+	
+	<center><div class="w3-content w3-section" style="max-width:500px">
+	<img class="mySlides" src="Pic of me.jpg" title="Girls Do Code" height=100% width=100% border=1 style=image-orientation:"90deg">
+	<img class="mySlides" src="gwc.jpg" title="Girls Who Code" height=100% width=100% border=1>
+	<img class="mySlides" src="kmhs.jpg" title="Kennesaw Mountain High School" height=100% width=100% border=1>
+	<img class="mySlides" src="h4h.jpg" title="Habitat for Humanity" height=100% width=100% border=1>
+	<img class="mySlides" src="nths.jpg" title="National Technical Honor Society" height=100% width=100% border=1>
+	<img class="mySlides" src="interact.jpg" title="Interact Club" height=100% width=100% border=1>
+	<img class="mySlides" src="NSHSS-logo.jpg" title="National Society of High School Scholars" height=100% width=100% border=1>
+	
+	<style>
+.	mySlides {display:none;}
+</style>
+
+<script>
+	var myIndex = 0;
+	carousel();
+	function carousel() {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		myIndex++;
+		if (myIndex > x.length) {myIndex = 1}
+		x[myIndex-1].style.display = "block";
+		setTimeout(carousel, 7000); // Change image every 7 seconds
+}
+</script>
+	
+	</center></div>	
+	
+	<div class="wrapper">
+	<div class="container">
+  <div class="jumbotron">
+    <h2> >Hello World.</h2> 
+   <p> My name is Jasmine Brown. I am currently a resident of Georgia and a rising junior attending Kennesaw Mountain High School.	
+	I have experience in coding in Scratch, Python, and C++. I also make websites in HTML, CSS and JavaScript.
+	I have taken several courses in Computer Science and I have completed a summer immersion program with Girls who Code.
+	I am a part of my local Habitat for Humanity club and will be acting as communications manager in the fall. 
+	I am also apart of the National Technical Honor Society and will be applying of the National Honor Society next year.
+	I enjoy volunteering in my spare time and playing my bass guitar.
+	</p>
+	
+	 
+	
+  </div>
+  
+	
+<div class = "push"></div>
+	
+</html>
